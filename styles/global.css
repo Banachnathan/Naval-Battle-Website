@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family: "Poppins", sans-serif;
+    --text-lg: 600 2rem/100% var(--font-family);
+    --text-sm: 400 1rem/100% var(--font-family);
+
+    --color-sm: #292828aa;
+    --color-lg: #ea0000;
+}
+
+
