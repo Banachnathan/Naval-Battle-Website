@@ -6,11 +6,20 @@
 
 :root{
     --font-family: "Poppins", sans-serif;
-    --text-lg: 600 2rem/100% var(--font-family);
+    --text-lg: 600 3rem/100% var(--font-family);
     --text-sm: 400 1rem/100% var(--font-family);
 
     --color-sm: #292828aa;
     --color-lg: #ea0000;
 }
 
+.container{
+    margin: 1rem 2rem;
+    max-width: 100%;
+
+}
+
+fieldset{
+    border: none;
+}
 

@@ -15,16 +15,54 @@
 <body>
     <main>
         <header>
-            <h1>Naval Battle</h1>
+            
 
-            <nav>
+            <nav id="menu-home" class="container">
+                <h1>Naval Battle</h1>
                 <ul>
-                    <li>Home</li>
-                    <li>Rules</li>
-                    <li><button type="submit">Entrar</button></li>
+                    <a href="home.html"><li>Home</li></a>
+                    <a href="rules.html"><li>Rules</li></a>
+                    <a href="login.html"><li><button type="submit">Entrar</button></li></a>
                 </ul>
             </nav>
         </header>
+
+        <section class="home container">
+            <h1 id="title">WELCOME TO THE NAVAL BATTLE</h1>
+            
+            <form action="#">
+                <fieldset id="players-wrapper">
+                    <header>
+                        <h1>Players</h1>
+                        <p>Choose the Number of Players</p>
+                    </header>
+                        
+
+                        <div id="choose-players">
+                        
+                        <div class="option-content">
+                            <input type="radio" name="player-opt" id="">
+                            <label for="">
+                                <img src="assets/icons/person.png" alt="">
+                            </label>
+                            <p>One Player</p>
+                        </div>
+
+                        <div class="option-content">
+                            <input type="radio" name="player-opt" id="">
+                            <label for="">
+                                <img src="assets/icons/twoplayer.png" alt="">
+                            </label>
+                                <p>Two Players</p>
+                        </div>
+                    </div>
+                </fieldset>
+
+            </form>
+            
+                
+            
+        </section>
     </main>
 </body>
 </html>
